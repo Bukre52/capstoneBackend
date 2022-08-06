@@ -1,7 +1,9 @@
 [[source]]
+name = "pypi"
 url = "https://pypi.org/simple"
 verify_ssl = true
-name = "pypi"
+
+[dev-packages]
 
 [packages]
 flask = "*"
@@ -14,4 +16,3 @@ flask-cors = "*"
 [requires]
 python_version = "*"
 
-[dev-packages]
